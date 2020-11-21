@@ -28,7 +28,7 @@ const Products = ({ orderInfo }) => {
           }
 
           let totalAPI = parseFloat(orderInfo.totals?.total);
-          setTotal(totalAPI + totalLS);
+          setTotal(parseFloat(totalAPI + totalLS).toFixed(2));
         }
       });
     };
