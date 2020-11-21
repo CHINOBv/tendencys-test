@@ -8,6 +8,7 @@ const OrderInfo = ({ orderInfo, AlertSucces, createdAt, total }) => {
           </li>
           <li className="list-group-item">Order ID: {orderInfo.id}</li>
           <li className="list-group-item">Order of Number: {orderInfo.number}</li>
+          <li className="list-group-item">Order Name: {orderInfo.name}</li>
           <li className="list-group-item">
             Crated At: {createdAt.toLocaleString("es-MX")}
           </li>
@@ -19,7 +20,7 @@ const OrderInfo = ({ orderInfo, AlertSucces, createdAt, total }) => {
           </li>
           <li className="list-group-item">
             Total Cost:
-            <span className="text-capitalize">{total}</span>
+            {total}
           </li>
           <li className="list-group-item">
             <button
