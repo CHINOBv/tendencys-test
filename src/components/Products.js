@@ -24,10 +24,10 @@ const Products = ({ orderInfo }) => {
 
           let totalLS = 0;
           for (var i = 0; i < data.length; i++) {
-            totalLS += parseInt(data[i].price * data[i].fulfillment.quantity);
+            totalLS += parseFloat(data[i].price * data[i].fulfillment.quantity);
           }
 
-          let totalAPI = parseInt(orderInfo.totals?.total);
+          let totalAPI = parseFloat(orderInfo.totals?.total);
           setTotal(totalAPI + totalLS);
         }
       });

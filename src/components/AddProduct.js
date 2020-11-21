@@ -26,6 +26,15 @@ const AddProduct = ({ id, setFetch }) => {
 
       return;
     }
+    //Verify if Quantity is Float
+    let validFloatREGX = /^\d*$/;
+    if(!validFloatREGX.test(quantity)){
+      AlertError({
+        title: "Quantity Number not Allowed",
+        message: "The quantity can only be a whole number",
+      });
+      return;
+    }
 
     let newProduct = {
       id: uuidV4(),
