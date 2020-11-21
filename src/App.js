@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 import Header from "./components/Header";
 import Products from "./components/Products";
@@ -9,7 +9,17 @@ function App() {
   return (
     <>
       <Header setOrderInfo={setOrderInfo} orderInfo={orderInfo} />
-      {orderInfo.items?.length > 0 ? <Products orderInfo={orderInfo} /> : null}
+      {orderInfo.items?.length > 0 ? (
+        <Products orderInfo={orderInfo} />
+      ) : (
+        <>
+          <div className="container">
+            <h1 className="text-center font-weight-bold">
+              Pleas Select a Order
+            </h1>
+          </div>
+        </>
+      )}
     </>
   );
 }

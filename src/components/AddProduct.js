@@ -3,7 +3,8 @@ import { useState } from "react";
 import { AlertError, AlertSucces } from "../components/Alert";
 import { v4 as uuidV4 } from "uuid";
 
-const AddProduct = ({ id }) => {
+const AddProduct = ({ id, setFetch }) => {
+
   const [sku, setSku] = useState("");
   const [name, setName] = useState("");
   const [quantity, setQuantity] = useState(0);
@@ -50,6 +51,7 @@ const AddProduct = ({ id }) => {
     setSku("");
     setQuantity(0);
     setPrice(0);
+    setFetch(true);
   };
 
   return (
