@@ -36,7 +36,7 @@ const Header = ({ setOrderInfo, orderInfo }) => {
           ? "Select a Order"
           : `Number Of Order: ${orderInfo.number}`}
       </h4>
-      <div className="w-25 ">
+      <div className="w-5" style={{ width: "300px", color: "#000" }}>
         <Select
           options={selectOptions}
           onChange={(e) => fetchAPI(e.vlue)}
