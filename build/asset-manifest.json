@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tendencys-test/static/css/main.20374fd5.chunk.css",
+    "main.js": "/tendencys-test/static/js/main.d4ac20e0.chunk.js",
+    "main.js.map": "/tendencys-test/static/js/main.d4ac20e0.chunk.js.map",
+    "runtime-main.js": "/tendencys-test/static/js/runtime-main.32d52c4b.js",
+    "runtime-main.js.map": "/tendencys-test/static/js/runtime-main.32d52c4b.js.map",
+    "static/js/2.b4ab951e.chunk.js": "/tendencys-test/static/js/2.b4ab951e.chunk.js",
+    "static/js/2.b4ab951e.chunk.js.map": "/tendencys-test/static/js/2.b4ab951e.chunk.js.map",
+    "static/js/3.f5e2d045.chunk.js": "/tendencys-test/static/js/3.f5e2d045.chunk.js",
+    "static/js/3.f5e2d045.chunk.js.map": "/tendencys-test/static/js/3.f5e2d045.chunk.js.map",
+    "index.html": "/tendencys-test/index.html",
+    "static/css/main.20374fd5.chunk.css.map": "/tendencys-test/static/css/main.20374fd5.chunk.css.map",
+    "static/js/2.b4ab951e.chunk.js.LICENSE.txt": "/tendencys-test/static/js/2.b4ab951e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32d52c4b.js",
+    "static/js/2.b4ab951e.chunk.js",
+    "static/css/main.20374fd5.chunk.css",
+    "static/js/main.d4ac20e0.chunk.js"
+  ]
+}
