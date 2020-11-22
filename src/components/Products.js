@@ -62,8 +62,8 @@ const Products = ({ orderInfo }) => {
             AlertSucces={AlertSucces}
             total={total}
           />
-          <div className="col-md-8 col-sm-12 ">
-            <div className="table-wrapper-scroll-y my-custom-scrollbar">
+          <div className="col-md-8 col-sm-12">
+            <div className="table-wrapper-scroll-y my-custom-scrollbar w-100">
               <table className="table table-striped table-responsive-sm table-light rounded">
                 <thead className="bg-header">
                   <tr className="">
